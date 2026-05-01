@@ -1,0 +1,33 @@
+# ─────────────────────────────────────────────
+#  .gitignore
+#  Place this at the ROOT of system-design-simulator/
+# ─────────────────────────────────────────────
+
+# Environment files (NEVER commit these)
+.env
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build output
+dist/
+build/
+*/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Docker volumes (local data)
+postgres_data/
+redis_data/
